@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-background-gradient="radial-gradient(#1f1c2c, #928dab)">
+          <div>
+            <h2 class="r-fit-text">Tipos de archivos</h2>
+          </div>
+          <div class="fragment fade-in-then-out">Trabajo realizado por:</div>
+          <div class="fragment fade-up">Jose Esteban gomez Reyes</div>
+        </section>
+        <section
+          data-background-gradient="linear-gradient(to bottom, #1f1c2c, #928dab)"
+        >
+          <p>Que son?</p>
+          <div class="fragment fade-up">
+            Los archivos planos son una colección de información que está
+            almacenada y es accedida de forma organizada en una base de datos.
+            Se suele usar para almacenar información en una forma no
+            estructurada.
+          </div>
+        </section>
+        <section
+          data-auto-animate
+          data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+          data-background-gradient="radial-gradient(#1f1c2c, #928dab)"
+        >
+          <h2>Vamos a ver 3 principales</h2>
+
+          <div class="r-hstack justify-center">
+            <div
+              data-id="box1"
+              style="
+                background: #999;
+                width: 50px;
+                height: 50px;
+                margin: 10px;
+                border-radius: 5px;
+              "
+            ></div>
+            <div
+              data-id="box2"
+              style="
+                background: #999;
+                width: 50px;
+                height: 50px;
+                margin: 10px;
+                border-radius: 5px;
+              "
+            ></div>
+            <div
+              data-id="box3"
+              style="
+                background: #999;
+                width: 50px;
+                height: 50px;
+                margin: 10px;
+                border-radius: 5px;
+              "
+            ></div>
+          </div>
+        </section>
+        <section
+          data-auto-animate
+          data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+          data-background-gradient="linear-gradient(to bottom, #1f1c2c, #928dab)"
+        >
+          <div class="r-hstack justify-center">
+            <div
+              data-id="box1"
+              data-auto-animate-delay="0"
+              style="
+                width: 150px;
+                height: 100px;
+                margin: 10px;
+                background-image: url('https://static.vecteezy.com/system/resources/previews/005/723/789/non_2x/copy-document-icon-paper-and-pencil-symbol-flat-design-on-a-white-background-vector.jpg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+              "
+            ></div>
+            <div
+              data-id="box2"
+              data-auto-animate-delay="0.1"
+              style="
+                width: 150px;
+                height: 100px;
+                margin: 10px;
+                background-image: url('https://c8.alamy.com/compes/2c8rr65/diseno-de-ilustracion-de-archivo-de-documento-xml-sobre-un-fondo-blanco-2c8rr65.jpg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+              "
+            ></div>
+            <div
+              data-id="box3"
+              data-auto-animate-delay="0.2"
+              style="
+                width: 150px;
+                height: 100px;
+                margin: 10px;
+                background-image: url('https://www.info-computer.com/modules/dbblog/views/img/uploads/2020/10/json.jpg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+              "
+            ></div>
+          </div>
+          <h2 style="margin-top: 20px">Documentos</h2>
+        </section>
+        <section
+          data-auto-animate
+          data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+          data-background="https://www.archivoexcel.com/wp-content/uploads/2014/02/Captura-cara.png"
+        >
+          <div class="r-stack">
+            <div
+              data-id="box1"
+              style="
+                background-image: url('https://static.vecteezy.com/system/resources/previews/005/723/789/non_2x/copy-document-icon-paper-and-pencil-symbol-flat-design-on-a-white-background-vector.jpg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 300px;
+                height: 300px;
+                border-radius: 200px;
+              "
+            ></div>
+          </div>
+          <h2 style="margin-top: 20px; color: darkslategrey">
+            Documento Plano
+          </h2>
+        </section>
+        <section
+          data-background="https://www.archivoexcel.com/wp-content/uploads/2014/02/Captura-cara.png"
+        >
+          <section>
+            <div style="background-color: whitesmoke; padding: 25px">
+              <p style="color: darkslategrey">
+                Un archivo plano es un tipo de archivo que contiene información
+                en forma de texto simple. Estos archivos se utilizan comúnmente
+                para almacenar y transferir pequeñas cantidades de información
+                entre diferentes aplicaciones y sistemas. Los archivos planos
+                son una de las formas más básicas y sencillas de almacenar y
+                compartir datos.
+              </p>
+            </div>
+          </section>
+          <section>
+            <code
+              class="hljs javascript"
+              data-trim
+              data-line-numbers="|4,8-11|17|22-24"
+            >
+              1,2,3,4 <br />
+              jose,juan,gonzales,perez <br />
+              a,b,c,d <br />
+              21,23,32,23
+            </code>
+          </section>
+        </section>
+        <section
+          data-auto-animate
+          data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+          data-background-gradient="linear-gradient(to bottom, #1f1c2c, #928dab)"
+        >
+          <div class="r-hstack justify-center">
+            <div
+              data-id="box1"
+              data-auto-animate-delay="0"
+              style="
+                width: 150px;
+                height: 100px;
+                margin: 10px;
+                background-image: url('https://static.vecteezy.com/system/resources/previews/005/723/789/non_2x/copy-document-icon-paper-and-pencil-symbol-flat-design-on-a-white-background-vector.jpg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+              "
+            ></div>
+            <div
+              data-id="box2"
+              data-auto-animate-delay="0.1"
+              style="
+                width: 150px;
+                height: 100px;
+                margin: 10px;
+                background-image: url('https://c8.alamy.com/compes/2c8rr65/diseno-de-ilustracion-de-archivo-de-documento-xml-sobre-un-fondo-blanco-2c8rr65.jpg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+              "
+            ></div>
+            <div
+              data-id="box3"
+              data-auto-animate-delay="0.2"
+              style="
+                width: 150px;
+                height: 100px;
+                margin: 10px;
+                background-image: url('https://www.info-computer.com/modules/dbblog/views/img/uploads/2020/10/json.jpg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+              "
+            ></div>
+          </div>
+          <h2 style="margin-top: 20px">Documentos</h2>
+        </section>
+        <section
+          data-auto-animate
+          data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+          data-background="https://www.researchgate.net/profile/Rolando-Palermo-Rodriguez-Cruz/publication/311535227/figure/fig1/AS:437411000918016@1481298317996/Figura-21-Ejemplo-basico-de-documento-XML-para-la-representacion-de-un-objeto-de-tipo.png"
+        >
+          <div class="r-stack">
+            <div
+              data-id="box2"
+              style="
+                background-image: url('https://c8.alamy.com/compes/2c8rr65/diseno-de-ilustracion-de-archivo-de-documento-xml-sobre-un-fondo-blanco-2c8rr65.jpg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 300px;
+                height: 300px;
+                border-radius: 200px;
+              "
+            ></div>
+          </div>
+          <h2 style="margin-top: 20px; color: darkslategrey">Documento XML</h2>
+        </section>
+        <section
+          data-background="https://www.researchgate.net/profile/Rolando-Palermo-Rodriguez-Cruz/publication/311535227/figure/fig1/AS:437411000918016@1481298317996/Figura-21-Ejemplo-basico-de-documento-XML-para-la-representacion-de-un-objeto-de-tipo.png"
+        >
+          <section>
+            <div style="background-color: whitesmoke; padding: 25px">
+              <p style="color: darkslategrey">
+                XML o Lenguaje de Marcado Extensible es un formato de texto que
+                se utiliza para almacenar e intercambiar datos estructurados,
+                bien sea que se trate de documentos, configuraciones,
+                transacciones o simplemente datos. Es un lenguaje de marcado que
+                define la estructura y el significado de los datos
+              </p>
+            </div>
+          </section>
+          <section>
+            <pre><code
+				data-line-numbers="3-5">
+              <?xml version="1.0" encoding="UTF-7" ?>
+              <album>
+                <autor>SABINA Y CIA </autor>
+                <titulo>Joaquín Sabina</titulo>
+                <formato>MP3</formato>
+                <localizacion>Varios CD5 </localizacion>
+              </album>
+            </code></pre>
+          </section>
+        </section>
+        <section
+          data-auto-animate
+          data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+          data-background-gradient="linear-gradient(to bottom, #1f1c2c, #928dab)"
+        >
+          <div class="r-hstack justify-center">
+            <div
+              data-id="box1"
+              data-auto-animate-delay="0"
+              style="
+                width: 150px;
+                height: 100px;
+                margin: 10px;
+                background-image: url('https://static.vecteezy.com/system/resources/previews/005/723/789/non_2x/copy-document-icon-paper-and-pencil-symbol-flat-design-on-a-white-background-vector.jpg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+              "
+            ></div>
+            <div
+              data-id="box2"
+              data-auto-animate-delay="0.1"
+              style="
+                width: 150px;
+                height: 100px;
+                margin: 10px;
+                background-image: url('https://c8.alamy.com/compes/2c8rr65/diseno-de-ilustracion-de-archivo-de-documento-xml-sobre-un-fondo-blanco-2c8rr65.jpg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+              "
+            ></div>
+            <div
+              data-id="box3"
+              data-auto-animate-delay="0.2"
+              style="
+                width: 150px;
+                height: 100px;
+                margin: 10px;
+                background-image: url('https://www.info-computer.com/modules/dbblog/views/img/uploads/2020/10/json.jpg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+              "
+            ></div>
+          </div>
+          <h2 style="margin-top: 20px">Documentos</h2>
+        </section>
+        <section
+          data-auto-animate
+          data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+          data-background="https://www.info-computer.com/modules/dbblog/views/img/post/como-abrir-los-archivos-json.png"
+        >
+          <div class="r-stack">
+            <div
+              data-id="box3"
+              style="
+                background-image: url('https://www.info-computer.com/modules/dbblog/views/img/uploads/2020/10/json.jpg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 300px;
+                height: 300px;
+                border-radius: 200px;
+              "
+            ></div>
+          </div>
+          <h2 style="margin-top: 20px">Documento JSON</h2>
+        </section>
+        <section
+          data-background="https://www.info-computer.com/modules/dbblog/views/img/post/como-abrir-los-archivos-json.png"
+        >
+          <section>
+            <div style="background-color: whitesmoke; padding: 25px">
+              <p style="color: darkslategrey">
+                Los documentos de JSON constan de campos, que son objetos pares
+                nombre-valor. Los campos pueden estar en cualquier orden, y
+                pueden estar anidados u organizados en matrices. No hay
+                obligatoriedad de estructuras de documentos. Por lo tanto, otros
+                documentos de la misma colección pueden tener un subconjunto de
+                estos campos, campos extra o representaciones diferentes del
+                mismo campo.
+              </p>
+            </div>
+          </section>
+          <section>
+            <pre><code
+				data-line-numbers="3-5">
+				{
+					name:"Joe",
+					age:25,
+					phone:["555-666-7777", "444-789-1234"],
+					homeAddress:
+						{street:"Sycamore Avenue",
+						city: “Gilroy”,
+						zipcode:"95046"
+						}
+					businessAddress:
+						{
+						street:"Bailey Avenue",
+						City: “San Jose”,
+						zipcode:"95141"
+						}
+				}
+            </code></pre>
+          </section>
+        </section>
+        <section
+          data-background-gradient="linear-gradient(to bottom, #1f1c2c, #928dab)"
+        >
+          <section>
+            <p>Un archivo extra</p>
+            <p class="fragment fade-down">Archivo PARQUET</p>
+            <p class="fragment fade-up">
+              <img
+                src="https://geekflare.com/wp-content/uploads/2021/11/parquet-csv-data.png"
+                alt=""
+              />
+            </p>
+          </section>
+          <section>
+            <p>
+              Apache Parquet se ha establecido como una gran herramienta para la
+              facilitación de la gestión de los macrodatos en el sistema de
+              computación de Apache Spark. Este cuenta con muchas más
+              herramientas y procesos que podrán ayudarte durante el
+              procesamiento de la información, logrando un amplio catálogo de
+              posibilidades con estrategias para desarrollar un análisis
+              efectivo de los datos.
+            </p>
+          </section>
+        </section>
+        <section>plugins VIDEO</section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
